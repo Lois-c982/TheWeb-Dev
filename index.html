@@ -1,9 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Title Goes Here</title>
-  </head>
-  <body>
-    <p>Lois' Portfolio</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lois' Flower Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #ff69b4;">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Lois' Flower Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <header class="text-white text-center py-5" style="background-color: #ff69b4;">
+        <div class="container">
+            <h1>Beautiful Flowers for Every Occasion</h1>
+            <p class="lead">Freshly picked and arranged with care</p>
+            <a href="#products" class="btn text-white" style="background-color: #ff1493;">Shop Now</a>
+        </div>
+    </header>
+    
+    <!-- Different Products/best sellers -->
+    <section id="products" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Bestsellers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Bouquet">
+                        <div class="card-body">
+                            <h5 class="card-title">Rose Bouquet</h5>
+                            <p class="card-text">A classic bouquet of fresh red roses.</p>
+                            <a href="#" class="btn text-white" style="background-color: #ff1493;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Tulips">
+                        <div class="card-body">
+                            <h5 class="card-title">Spring Tulips</h5>
+                            <p class="card-text">Bright and cheerful tulips in mixed colors.</p>
+                            <a href="#" class="btn text-white" style="background-color: #ff1493;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Lilies">
+                        <div class="card-body">
+                            <h5 class="card-title">Elegant Lilies</h5>
+                            <p class="card-text">Pure white lilies symbolizing beauty and grace.</p>
+                            <a href="#" class="btn text-white" style="background-color: #ff1493;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h4>Custom Bouquets</h4>
+                    <p>Handcrafted floral arrangements for any occasion.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Wedding Arrangements</h4>
+                    <p>Elegant floral designs to make your big day special.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Same-Day Delivery</h4>
+                    <p>Fresh flowers delivered right to your doorstep.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Get in Touch</h2>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn text-white" style="background-color: #ff1493;">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="text-white text-center py-3" style="background-color: #ff69b4;">
+        <p>&copy; 2025 Lois' Flower Shop. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
